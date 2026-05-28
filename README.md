@@ -1,33 +1,20 @@
+## Assignment 3: Speech Emotion Recognition Via Machine Learning
 
-# Machine Learning
-Machine Learning (ML) is a subset of artificial intelligence (AI) focused on building systems that learn from and make decisions based on data. It involves algorithms that improve automatically through experience and by the use of data. These algorithms find patterns in data and make predictions or decisions without being explicitly programmed to perform the task.
+The main goal of this assignment is to advance your comprehension of audio data classification modeling, building upon the previous task. You'll investigate diverse machine learning algorithms suitable for audio classification. In addition to the methods covered in the tutorial, try out supplementary techniques and approaches to enhance your model development. 
 
-# Types of Machine Learning
- ![Machine learning types](images/Capture.PNG)
+### Tasks: 
+
+1. Fork the repositoryLinks to an external site. to your own account.
+2. Perform audio data classification by training different machine learning models (as done in the tutorial) .
+3. Test your model using the 1) RAVDESS test set, and 2) audio data you recorded from your prior assignment. You need to create confusion matrices for both of them and compare, as well as accuracy, F1 and related metrics.
+4. Compare scaled and unscaled versions. 
+5. Change one hyperparameter in the winning method to see if results change.
+6. Commit changes to your own repository.
+7. Create a detailed 1–2-page report on your results. Compare your results from your new data with the RAVDESS-only results you saw during the tutorial. Which model performed better in which test set? Did the hyperparameter change affect your results? How did the scaled and unscaled versions differ in results? Discuss why you might have seen differences in them. Mention differences in features values of your data, and the RAVDESS data. Use screenshots from your code for results. Total analysis should be 1000 word limit, include images and graphs that shows your results. Cite all your resources, including the datasets as references (outside of page/word limit).
+8. Upload your report on Canvas in PDF format, along with the link to your forked repository. This will provide a comprehensive overview of your exploration and application of various techniques in audio data classification modeling.
+
+**Submission in Canvas:** 1) your GitHub account name and a link to your forked and changed repository, and 2) Upload your report on canvas in PDF format.
+
  
-# Audio Data Classification Assignment
 
-## Overview
-This assignment focuses on the application of machine learning for audio data classification. Building upon our previous work on preprocessing audio data, we now delve into the modeling process using various machine learning algorithms. The objective is to advance understanding and skills in audio data classification modeling.
-
-## Tutorial Recap
-In our last tutorial, we preprocessed audio data, which will now serve as the foundation for our machine learning models. We also explored the basics of machine learning and supervised learning, providing a theoretical background for this practical application.
-
-## Assignment Tasks
-
-### Tasks
-1. Fork this repository into your account.
-2. Use the RAVDESS dataset to train different machine learning models.
-3. Test all your trained models with the audio files you created last week.
-4. Regularly commit your changes to your repository.
-5. Create a detailed 1–2-page report (500-1000 words). This report should cover:
-   - The modeling process and the results obtained.
-   - A comparison of results from your new audio dataset versus the RAVDESS-only test set. 
-   - Discussion on the observed differences in the results, try to examine the causes of the differences you observed.
-6. Upload your report in PDF format and with the link of your forked Github repository.
-
-
-## Contact
-For queries or further discussions, feel free to reach out to TA.
-
-Credits: https://github.com/IliaZenkov/sklearn-audio-classification
+P.S.: Even if you fail to finalize the assignment, write down steps you took, issues you encountered and how you tried to solve them!
